@@ -176,7 +176,7 @@ a {
 /*---------------------------------project.html--------------------------------------*/
 
 .projecttext{
-    position: fixed;
+    position: absolute;
     left: 20px;
     width: 95%;
     top: 100px;
@@ -184,6 +184,7 @@ a {
     z-index: 10;
     line-height: 1.5;
     margin: 0;
+    overflow: scroll;
 }
 
 #everywhere {
