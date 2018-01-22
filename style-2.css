@@ -132,7 +132,8 @@ a {
 }
 
 .menu {
-display: none;
+    display: none;
+    z-index: 12;
 }
 
 /*------------------------------video-------------------------------*/
@@ -186,8 +187,6 @@ body{
     right: 20px;
     color: white;
     top: 22px;
-    text-align: center;
-    font-family: LydianBTWXX-Bold;
     font-size: 17px;
     z-index: 14;
 }
