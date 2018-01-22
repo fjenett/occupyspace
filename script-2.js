@@ -52,7 +52,7 @@ var alleZitate = function () {
         var elText = $el.text()
         $el.text(elText + elText + elText + elText + elText + elText + elText + elText + elText + elText + elText)
         $el.css('display', 'block')
-        $el.css('width', '29000px')
+        $el.css('width', '49000px')
         $el.hover(
             function () {
                 $(this).addClass('active')
