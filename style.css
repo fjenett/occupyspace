@@ -1,0 +1,265 @@
+/**{
+    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 1x, url(assets/Pfeile-01@2x.png) 2x), auto;
+}*/
+
+body {
+    background-color:white;
+    font-family: LydianBTWXX-Bold;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 100%;
+}
+
+#clickeverywhere {
+    position: fixed;
+    width: 100%;
+    height: 70%;
+    top:15%;
+    bottom:15%;
+    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), auto;
+}
+
+@font-face {
+font-family: LydianBTWXX-Bold;
+src: url(fonts/3554E4_0_0.ttf);
+}
+
+/*--------------------Loading-----------------------------------------*/
+
+div.loading{
+    position: fixed;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    
+    transition: opacity 1s;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    z-index: 6;
+}
+
+div.loading.hidden{
+    opacity: 0;
+    pointer-events: none;
+}
+
+/*--------------------Zitat-----------------------------------------*/
+
+div.big {
+    position:absolute;
+    width: 80%;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+#zitat {
+    font-size: 60px;
+    color: black;
+   -webkit-text-fill-color: white;
+   -webkit-text-stroke-width: 1.5px;
+   -webkit-text-stroke-color: black;
+    color: white;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    margin: 0;
+    transform: translateY(-50%);
+    z-index: 4;
+    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), auto;
+}
+}
+
+/*--------------------Navigation-----------------------------------------*/
+
+p{
+    position: fixed;
+    left: 20px;
+    top: 22px;
+    font-size: 17px;
+    z-index: 10;
+    margin: 0;
+}
+
+hr{
+    background: #333;
+    position: fixed;
+    left: 0;
+    top: 50px;
+    border: none;
+    color: #333;
+    height: 1.2px;
+    width: 100%;
+    z-index: 11;
+}
+
+.participate {
+    position: fixed;
+    right: 150px;
+    top: 22px;
+    text-align: center;
+    font-family: LydianBTWXX-Bold;
+    font-size: 17px;
+    z-index: 8;
+}
+
+.index {
+    position: fixed;
+    right: 280px;
+    top: 22px;
+    text-align: center;
+    font-family: LydianBTWXX-Bold;
+    font-size: 17px;
+    z-index: 9;
+}
+
+.about {
+    position: fixed;
+    right: 20px;
+    top: 22px;
+    text-align: center;
+    font-family: LydianBTWXX-Bold;
+    font-size: 17px;
+    z-index: 9;
+}
+
+.occupy{
+    position: fixed;
+    left: 20px;
+    top: 22px;
+    font-size: 17px;
+    z-index: 10;
+    margin: 0;
+}
+
+.menu {
+display: none;
+}
+
+div.navigation {
+    background-color: white;
+    width: 100%;
+}
+
+a {
+    cursor: -webkit-image-set( url(assets/hand@2x-03.png) 2x)35 0, pointer;
+}
+
+/*---------------------------------buttons--------------------------------------*/
+
+#next {
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    opacity: 0;
+}
+
+#back {
+    position: fixed;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#next img,
+#back img {
+    width: 20px;
+    opacity: 1;
+}
+
+/*---------------------------------project.html--------------------------------------*/
+
+.projecttext{
+    position: fixed;
+    left: 20px;
+    width: 95%;
+    top: 100px;
+    font-size: 25px;
+    z-index: 10;
+    line-height: 1.5;
+    margin: 0;
+}
+
+#everywhere {
+    position: fixed;
+    width: 100%;
+    height: 70%;
+    top:15%;
+    bottom:15%;
+
+
+}
+
+/*---------------------------------menu.html--------------------------------------*/
+
+div.menunavigation{
+    position: fixed;
+    color: white;
+    top: 45%;
+    left: 50%;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
+
+.kreuz{
+    position: fixed;
+    right: 10%;
+    top:10%;
+}
+
+.menuindex {
+    color:white;
+}
+/*--------------------------mobile version--------------------------------*/
+
+
+@media (max-width: 800px) {
+    
+    #zitat {
+    font-size: 40px;
+    -webkit-text-stroke-width: 0.8px;
+    }
+}
+
+@media (max-width: 480px) {
+#next {
+    opacity: 1;
+}
+    #zitat{
+    font-size: 30px;
+}
+    .participate {
+    display: none;
+}
+
+.index {
+    display: none;
+}
+
+.about {
+    display: none;
+}
+.menu {
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 22px;
+    text-align: center;
+    font-family: LydianBTWXX-Bold;
+    font-size: 17px;
+    z-index: 9;
+}
+    .projecttext{
+        font-size: 17px;
+    }
+}
+
