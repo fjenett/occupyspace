@@ -264,11 +264,12 @@ div.menunavigation{
     text-align: center;
     font-family: LydianBTWXX-Bold;
     font-size: 17px;
-    z-index: 9;
+    z-index: 12;
 }
     .projecttext{
         font-size: 17px;
         width: 85%;
+        z-index: 7;
     }
 }
 
