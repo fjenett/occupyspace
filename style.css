@@ -241,10 +241,10 @@ div.menunavigation{
 #next {
     opacity: 1;
 }
-    #zitat{
+#zitat{
     font-size: 30px;
 }
-    .participate {
+.participate {
     display: none;
 }
 
@@ -265,10 +265,9 @@ div.menunavigation{
     font-size: 17px;
     z-index: 12;
 }
-    .projecttext{
+.projecttext{
         font-size: 17px;
         width: 85%;
-        z-index: 7;
     }
 }
 
