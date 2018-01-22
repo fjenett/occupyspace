@@ -3,7 +3,8 @@ body {
     font-family: LydianBTWXX-Bold;
     letter-spacing: 1px;
     padding: 10%;
-        overflow-x: hidden;
+    overflow-x: hidden;
+    
 
 }
 
@@ -162,8 +163,8 @@ display: none;
 }
 
 @media (max-width: 480px) {
-#next {
-    opacity: 1;
+body{
+  background-attachment: fixed;    
 }
     #zitat{
     font-size: 30px;
