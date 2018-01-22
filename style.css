@@ -190,7 +190,6 @@ a {
     z-index: 10;
     line-height: 1.5;
     margin: 0;
-    overflow: scroll;
     bottom: 20px;
 }
 
