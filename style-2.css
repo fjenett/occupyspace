@@ -140,8 +140,14 @@ a {
 #video-container {
   position: fixed;
   z-index: 2;
-  width: 100vw;
-  height: 100vh;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 /*-------------------------------------mobile version---------------------------------*/
