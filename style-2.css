@@ -124,6 +124,7 @@ div.navigation {
     height: 59px;
     z-index: 6;
     background-attachment: fixed;
+    overflow-x: hidden;
 }
 
 a {
@@ -160,7 +161,8 @@ a {
 
 @media (max-width: 480px) {
 body{
-  background-attachment: fixed;    
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
     #zitat{
     font-size: 30px;
