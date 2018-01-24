@@ -167,10 +167,11 @@ a {
 body{
   background-attachment: fixed;
 }
-    #zitat{
+#zitat{
     font-size: 30px;
+    width: 100%;
 }
-    .participate {
+.participate {
     display: none;
 }
 
