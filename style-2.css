@@ -1,3 +1,7 @@
+html{
+    overflow-x: hidden;
+}
+
 body {
     background-color:black;
     font-family: LydianBTWXX-Bold;
@@ -162,7 +166,6 @@ a {
 @media (max-width: 480px) {
 body{
   background-attachment: fixed;
-  overflow-x: hidden;
 }
     #zitat{
     font-size: 30px;
