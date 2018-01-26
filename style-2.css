@@ -1,6 +1,4 @@
-html{
-    overflow: hidden;
-}
+
 
 body {
     background-color:black;
@@ -164,9 +162,16 @@ a {
 }
 
 @media (max-width: 480px) {
-body{
-  background-attachment: fixed;
+    
+html{
+    width: 100%;
 }
+    
+body{
+    background-attachment: fixed;
+    width: 100%;
+}
+    
 #zitat{
     font-size: 30px;
     width: 100%;
