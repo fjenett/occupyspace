@@ -131,6 +131,7 @@ div.navigation {
 }
 
 a {
+    cursor: pointer;
     cursor: -webkit-image-set( url(assets/handw@2x.png) 2x)35 0, pointer;
 }
 
