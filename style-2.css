@@ -5,7 +5,7 @@ body {
     font-family: LydianBTWXX-Bold;
     letter-spacing: 1px;
     padding: 10%;
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 
 @font-face {
@@ -37,6 +37,7 @@ div.loading.hidden{
 
 #zitat-container {
     color: white;
+    font-style: normal;
     font-size: 34px;
     text-align: left;
     align-items: center;
