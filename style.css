@@ -16,8 +16,8 @@ body {
     height: 70%;
     top:15%;
     bottom:15%;
-    cursor: url(assets/Pfeile-01@2x.png), pointer;
-    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), url(assets/Pfeile-01@2x.png), pointer;
+    cursor: url(assets/Pfeile-01@2x.png) 2x, pointer;
+    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), url(assets/Pfeile-01@2x.png) 2x, pointer;
 }
 
 @font-face {
@@ -74,7 +74,7 @@ div.big {
     margin: 0;
     transform: translateY(-50%);
     z-index: 4;
-    cursor: url(assets/Pfeile-01@2x.png), pointer;
+    cursor: url(assets/Pfeile-01@2x.png) 2x, pointer;
     cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), auto;
 }
 }
