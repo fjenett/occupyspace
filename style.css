@@ -16,7 +16,7 @@ body {
     height: 70%;
     top:15%;
     bottom:15%;
-    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), auto;
+    cursor: -webkit-image-set( url(assets/Pfeile-01@2x.png) 2x), pointer;
 }
 
 @font-face {
