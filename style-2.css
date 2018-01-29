@@ -1,143 +1,143 @@
 
 
 body {
-    background-color:black;
-    font-family: LydianBTWXX-Bold;
-    letter-spacing: 1px;
-    padding: 10%;
-    overflow-x: hidden;
+  background-color:black;
+  font-family: LydianBTWXX-Bold;
+  letter-spacing: 1px;
+  padding: 10%;
+  overflow-x: hidden;
 }
 
 @font-face {
-font-family: LydianBTWXX-Bold;
-src: url(fonts/3554E4_0_0.ttf);
+  font-family: LydianBTWXX-Bold;
+  src: url(fonts/3554E4_0_0.ttf);
 }
 
 div.loading{
-    position: fixed;
-    width: 100%;
-    height:100%;
-    top: 0;
-    left: 0;
-    
-    transition: opacity 2s;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    z-index: 6;
+  position: fixed;
+  width: 100%;
+  height:100%;
+  top: 0;
+  left: 0;
+
+  transition: opacity 2s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  z-index: 6;
 }
 
 div.loading.hidden{
-    opacity: 0;
-    pointer-events: none;
+  opacity: 0;
+  pointer-events: none;
 }
 
 
 #zitat-container {
-    color: white;
-    font-style: normal;
-    font-size: 34px;
-    text-align: left;
-    align-items: center;
-    position: absolute;
-    top: 60px;
-    left:-20%;
-    margin: 0;
-    z-index: 5;
-    cursor: pointer;
-    overflow-x: hidden;
-    cursor: -webkit-image-set( url(assets/handw@2x.png) 2x)38 0, pointer;
+  color: white;
+  font-style: normal;
+  font-size: 34px;
+  text-align: left;
+  align-items: center;
+  position: absolute;
+  top: 60px;
+  left:-20%;
+  margin: 0;
+  z-index: 5;
+  cursor: pointer;
+  overflow-x: hidden;
+  cursor: -webkit-image-set( url(assets/handw@2x.png) 2x)38 0, pointer;
 }
 
 /*--------------------Navigation-----------------------------------------*/
 
 p{
-    position: fixed;
-    left: 20px;
-    top: 22px;
-    font-size: 17px;
-    z-index: 10;
-    margin: 0;
-    color: white;
+  position: fixed;
+  left: 20px;
+  top: 22px;
+  font-size: 17px;
+  z-index: 10;
+  margin: 0;
+  color: white;
 }
 
 hr{
-    background: white;
-    position: fixed;
-    left: 0;
-    top: 50px;
-    border: none;
-    color: white;
-    height: 1.2px;
-    width: 100%;
-    z-index: 11;
+  background: white;
+  position: fixed;
+  left: 0;
+  top: 50px;
+  border: none;
+  color: white;
+  height: 1.2px;
+  width: 100%;
+  z-index: 11;
 }
 
 .participate {
-    color: white;
-    position: fixed;
-    right: 150px;
-    top: 22px;
-    text-align: center;
-    font-family: LydianBTWXX-Bold;
-    font-size: 17px;
-    z-index: 8;
+  color: white;
+  position: fixed;
+  right: 150px;
+  top: 22px;
+  text-align: center;
+  font-family: LydianBTWXX-Bold;
+  font-size: 17px;
+  z-index: 8;
 }
 
 .index {
-    color: white;
-    position: fixed;
-    right: 280px;
-    top: 22px;
-    text-align: center;
-    font-family: LydianBTWXX-Bold;
-    font-size: 17px;
-    z-index: 9;
+  color: white;
+  position: fixed;
+  right: 280px;
+  top: 22px;
+  text-align: center;
+  font-family: LydianBTWXX-Bold;
+  font-size: 17px;
+  z-index: 9;
 }
 
 .about {
-    color: white;
-    position: fixed;
-    right: 20px;
-    top: 22px;
-    text-align: center;
-    font-family: LydianBTWXX-Bold;
-    font-size: 17px;
-    z-index: 9;
+  color: white;
+  position: fixed;
+  right: 20px;
+  top: 22px;
+  text-align: center;
+  font-family: LydianBTWXX-Bold;
+  font-size: 17px;
+  z-index: 9;
 }
 
 .occupy{
-    color: white;
-    position: fixed;
-    left: 20px;
-    top: 22px;
-    font-size: 17px;
-    z-index: 10;
-    margin: 0;
+  color: white;
+  position: fixed;
+  left: 20px;
+  top: 22px;
+  font-size: 17px;
+  z-index: 10;
+  margin: 0;
 }
 
 div.navigation {
-    position: fixed;
-    left: 0;
-    top: 0;
-    background-color: black;
-    width: 100%;
-    height: 59px;
-    z-index: 6;
-    background-attachment: fixed;
-    overflow-x: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: black;
+  width: 100%;
+  height: 59px;
+  z-index: 6;
+  background-attachment: fixed;
+  overflow-x: hidden;
 }
 
 a {
-    cursor: pointer;
-    cursor: -webkit-image-set( url(assets/handw@2x.png) 2x)35 0, pointer;
+  cursor: pointer;
+  cursor: -webkit-image-set( url(assets/handw@2x.png) 2x)35 0, pointer;
 }
 
 .menu {
-    display: none;
-    z-index: 12;
+  display: none;
+  z-index: 12;
 }
 
 /*------------------------------video-------------------------------*/
@@ -145,51 +145,51 @@ a {
 #video-container {
   position: fixed;
   z-index: 2;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -1;
-    transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -1;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 /*-------------------------------------mobile version---------------------------------*/
 
 @media (max-width: 800px) {
-#zitat-container {
+  #zitat-container {
     font-size: 24px;
-}
+    left: 0;
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
-    
-html{
+  html{
     width: 100%;
-}
-    
-body{
+  }
+
+  body{
     background-attachment: fixed;
-    width: 100%;
-}
-    
-#zitat{
+  }
+
+  #zitat{
     font-size: 30px;
     width: 100%;
-}
-.participate {
+  }
+  .participate {
     display: none;
-}
+  }
 
-.index {
+  .index {
     display: none;
-}
+  }
 
-.about {
+  .about {
     display: none;
-}
-.menu {
+  }
+  .menu {
     display: block;
     position: absolute;
     right: 20px;
@@ -197,5 +197,5 @@ body{
     top: 22px;
     font-size: 17px;
     z-index: 14;
-}
+  }
 }
