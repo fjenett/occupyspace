@@ -131,11 +131,11 @@ function onReady(callback) {
     function checkReady() {
         if (document.getElementsByTagName('body')[0] !== undefined) {
             window.clearInterval(intervalID);
-            callback.call(this);
+            callback();
         }
     }
 }
 
-onReady(setTimeout(function () {
+onReady(function () {
     document.querySelector("div.loading").classList.add("hidden")
-}));
+});
