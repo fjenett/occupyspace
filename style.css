@@ -160,6 +160,28 @@ a {
 }
 
 
+/*---------------------------------buttons--------------------------------------*/
+
+#next {
+    position: fixed;
+    right: 5%;
+    bottom: 2%;
+    opacity: 0;
+}
+
+#back {
+    position: fixed;
+    left: 2%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#next img,
+#back img {
+    width: 20px;
+    opacity: 1;
+}
+
 /*---------------------------------project.html--------------------------------------*/
 
 .projecttext{
