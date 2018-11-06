@@ -1,5 +1,5 @@
 var api = new PieceMakerApi({
-    host: 'https://piecemaker2-api-public.herokuapp.com',
+    host: 'https://api.piecemaker.org/',
     api_key: '0310XfxjdjH4EdY1'                                  //zugang zu piecemaker
 })
 
